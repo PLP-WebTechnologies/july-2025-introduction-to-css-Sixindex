@@ -1,0 +1,81 @@
+/* ========================
+   General Page Styles
+======================== */
+body {
+    background-color: #121212;  /* Dark background */
+    color: #e0e0e0;            /* Light text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================
+   Header Styling
+======================== */
+#main-header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-bottom: 3px solid #444; /* Box Model: border */
+}
+
+#main-header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px; /* Box Model: margin */
+}
+
+nav a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========================
+   Main Content Area
+======================== */
+.container {
+    width: 80%;
+    margin: 20px auto;      /* Box Model: margin */
+    padding: 20px;          /* Box Model: padding */
+    border: 2px solid #333; /* Box Model: border */
+    background-color: #1c1c1c;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: #ffcc00; /* Example of a class selector */
+}
+
+/* ========================
+   Aside Styling
+======================== */
+aside {
+    background-color: #222;
+    padding: 15px;
+    border: 1px solid #444;
+    margin-top: 20px;
+}
+
+/* ========================
+   Footer Styling
+======================== */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-top: 3px solid #444;
+}
+
+
+
